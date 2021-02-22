@@ -31,9 +31,17 @@ a {
   background-color: yellow;
 }
 
+/* latest funding styling */
+.lf-b hr {
+  border: 0.2px solid red;
+  width: 100%;
+  opacity: 0.2;
+}
+
 #latestfunding {
-  width: 90%;
-  text-align: center;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 100%;
 }
 
 #latestfunding h2 {
@@ -49,26 +57,82 @@ a {
 #lf-links {
   color: red;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  margin: auto;
+  width: 100%;
 }
 
 #lf-links a {
   color: red;
-  /*margin-left: auto 0.5rem auto 0.5rem;*/
   font-size: 1.2rem;
   font-family: Avalon, sans-serif;
 }
 
 /* individual grid items*/
-#lf-grid {}
-
-#lf-1 {
-  grid-template-columns: 100%;
+#lf-grid cite {
+  opacity: 0.5;
+  font-size: 0.75rem;
+  text-decoration: none;
 }
 
-#lf-1-m {
+#lf-grid {
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-column-gap: 5%;
+  width: 80%;
+  margin: auto;
+}
+
+.lf-h-g img {
+  position: relative;
+  left: 5%;
+  top: 10%;
+  bottom: 80%;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #ff3333;
+}
+
+.lf-h-t {
+  background-color: #ff3333;
+  color: white;
+  display: flex;
+  height: 2.75rem;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.lf-h-b p {
+  color: #000;
+  opacity: 0.5;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  font-size: 0.65rem;
+}
+
+.lf-h-b {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background-color: rgb(255, 230, 230);
+}
+
+.lf-b {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  background-color: rgb(241, 218, 218) hsl(0, 45%, 90%);
+}
+
+#lf-grid div {
   grid-template-columns: 100%;
+  grid-template-rows: 33% 20% 1% 20%;
 }
 
 /* footer */
