@@ -85,7 +85,7 @@ a {
 }
 
 .news_header {
-  margin-top: 100px;
+  margin-top: 50px;
   color: red;
   font-size: 25px;
   font-weight: 900;
@@ -102,8 +102,20 @@ a {
   margin: 2px;
 }
 
+.news_imgd {
+  margin-left: 15px;
+  font-size: 15px;
+}
+
 .newssec_a {
-  
+  font-size: 12px;
+}
+
+.fa-circle {
+  text-align: center;
+  font-size: 3px;
+  margin: 2px;
+  color: grey;
 }
 
 #latestfunding {
@@ -144,6 +156,18 @@ a {
 
 #lf-1-m {
   grid-template-columns: 100%;
+}
+
+/* description after latest funding */
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 50px;
+}
+
+.dis_t {
+  
 }
 
 /* footer */
