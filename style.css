@@ -1,6 +1,5 @@
 html {
   overflow-x: hidden;
-  overflow-y: visible;
 }
 
 a {
@@ -38,6 +37,11 @@ a {
   opacity: 0.2;
 }
 
+section {
+  width: 80%;
+  margin: auto;
+}
+
 #latestfunding {
   width: 80%;
   margin: auto;
@@ -51,16 +55,14 @@ a {
 }
 
 #lf-h {
-  grid-template-columns: 75% 25%;
+  grid-template-columns: 50% 20% 30%;
 }
 
 #lf-links {
   color: red;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
-  width: 100%;
 }
 
 #lf-links a {
@@ -79,8 +81,6 @@ a {
 #lf-grid {
   grid-template-columns: 25% 25% 25% 25%;
   grid-column-gap: 5%;
-  width: 80%;
-  margin: auto;
 }
 
 .lf-h-g img {
