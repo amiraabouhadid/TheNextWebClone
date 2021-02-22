@@ -1,0 +1,29 @@
+html {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.flex {
+  display: flex;
+}
+
+#nav-bar-2 {
+
+  width: 100%;
+  border-style:inset;
+  flex-flow: row wrap;
+}
+
+#nav-bar-2-top {
+  flex-flow: row wrap;
+  width: 100%;
+}
+#nav-bar-2-bottom{
+  background-color: yellow;
+}
+#f-1{
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
