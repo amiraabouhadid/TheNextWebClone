@@ -3,14 +3,18 @@ html {
   overflow-y: visible;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .flex {
   display: flex;
 }
 
 #nav-bar-2 {
-
   width: 100%;
-  border-style:inset;
+  border-style: inset;
   flex-flow: row wrap;
 }
 
@@ -18,12 +22,43 @@ html {
   flex-flow: row wrap;
   width: 100%;
 }
-#nav-bar-2-bottom{
+
+#nav-bar-2-bottom {
   background-color: yellow;
 }
-#f-1{
+
+#f-1 a {
+  color: white;
+  font-size: 0.9rem;
+  margin: 0.5rem;
+}
+
+#f-1 i {
+  color: white;
+  margin: 1rem;
+}
+
+#f-1 {
   flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #555;
+  height: 5rem;
+}
+
+#f-2 {
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
+  background-color: black;
+  font-size: 0.75rem;
+  color: white;
+}
+
+#f-3 {
+  position: fixed;
+  float: right;
+  right: 0%;
 }
