@@ -67,7 +67,7 @@ a {
   font-family: Avalon, sans-serif;
 }
 
-/* individual grid items*/
+/* individual grid items */
 #lf-grid cite {
   opacity: 0.5;
   font-size: 0.75rem;
@@ -87,11 +87,11 @@ a {
   bottom: 80%;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #ff3333;
+  background-color: #f33;
 }
 
 .lf-h-t {
-  background-color: #ff3333;
+  background-color: #f33;
   color: white;
   display: flex;
   height: 2.75rem;
@@ -124,7 +124,7 @@ a {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 0.75rem;
   opacity: 0.6;
-  background-color: rgb(241, 218, 218) hsl(0, 45%, 90%);
+  background-color: hsl(0, 45%, 90%);
 }
 
 #lf-grid div {
