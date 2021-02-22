@@ -12,6 +12,10 @@ a {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 #nav-bar-2 {
   width: 100%;
   border-style: inset;
@@ -27,6 +31,47 @@ a {
   background-color: yellow;
 }
 
+#latestfunding {
+  width: 90%;
+  text-align: center;
+}
+
+#latestfunding h2 {
+  color: red;
+  font-size: 2rem;
+  font-family: Avalon, sans-serif;
+}
+
+#lf-h {
+  grid-template-columns: 75% 25%;
+}
+
+#lf-links {
+  color: red;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lf-links a {
+  color: red;
+  /*margin-left: auto 0.5rem auto 0.5rem;*/
+  font-size: 1.2rem;
+  font-family: Avalon, sans-serif;
+}
+
+/* individual grid items*/
+#lf-grid {}
+
+#lf-1 {
+  grid-template-columns: 100%;
+}
+
+#lf-1-m {
+  grid-template-columns: 100%;
+}
+
+/* footer */
 #f-1 a {
   color: white;
   font-size: 0.9rem;
