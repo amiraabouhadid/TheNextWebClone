@@ -15,21 +15,6 @@ a {
   display: grid;
 }
 
-#nav-bar-2 {
-  width: 100%;
-  border-style: inset;
-  flex-flow: row wrap;
-}
-
-#nav-bar-2-top {
-  flex-flow: row wrap;
-  width: 100%;
-}
-
-#nav-bar-2-bottom {
-  background-color: yellow;
-}
-
 /* latest funding styling */
 .lf-b hr {
   border: 0.2px solid red;
