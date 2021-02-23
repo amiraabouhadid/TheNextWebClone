@@ -185,7 +185,7 @@ a {
 }
 
 .lf-h-t {
-  background-color: #FF4500;
+  background-color: #ff4500;
   display: flex;
   height: 2.75rem;
   flex-flow: column wrap;
@@ -199,6 +199,14 @@ a {
   margin-top: 2.5%;
   font-size: 1.2rem;
   margin-bottom: 0%;
+}
+
+.lf-b a,
+p {
+  margin: 2.5% 2.5% 2% 5%;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.7;
 }
 
 .lf-h-b p {
@@ -216,13 +224,6 @@ a {
   align-content: flex-start;
   flex-flow: column;
   background-color: rgb(255, 230, 230);
-}
-
-.lf-b a, p {
-  margin: 2.5% 2.5% 2% 5%;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 0.8rem;
-  opacity: 0.7;
 }
 
 .lf-b {
@@ -263,7 +264,7 @@ a {
   justify-content: space-around;
   align-content: center;
   background-color: rgb(16, 16, 16);
-  border-color: #888888;
+  border-color: #888;
   height: 5rem;
 }
 
