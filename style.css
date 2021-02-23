@@ -1,7 +1,9 @@
 html {
   overflow-x: hidden;
 }
-
+body{
+  width:100%;
+}
 a {
   text-decoration: none;
   color: black;
@@ -38,27 +40,29 @@ a {
 }
 
 #latestfunding {
-  width: 80%;
-  margin: auto;
+  width: 90%;
+  margin: 2.5% auto 2.5% auto;
   grid-template-columns: 100%;
 }
 
 #latestfunding h2 {
   color: red;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
   font-family: Avalon, sans-serif;
+  width:100%;
 }
 
 #lf-h {
-  justify-content: space-between;
-  width: 80%;
+  grid-template-columns: 100%;
+
 }
 
 #lf-links {
   color: red;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
+  grid-template-columns: 100%;
+  margin-bottom: 1%;
+  grid-row-gap:20%;
 }
 
 #lf-links a {
@@ -68,6 +72,7 @@ a {
 }
 
 /* individual grid items */
+
 #lf-grid cite {
   opacity: 0.5;
   font-size: 0.75rem;
@@ -75,9 +80,10 @@ a {
 }
 
 #lf-grid {
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-column-gap: 5%;
-  width: 70%;
+  margin-top:10%;
+  grid-template-columns: 100%;
+  grid-row-gap: 2.5%;
+
 }
 
 .lf-h-g img {
@@ -114,17 +120,18 @@ a {
   flex-flow: column;
   background-color: rgb(255, 230, 230);
 }
-
+.lf-b a{
+  margin: 2.5% 2.5% 2.5% 5%;
+}
 .lf-b {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
   justify-content: flex-start;
-  margin: auto;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   opacity: 0.6;
-  background-color: hsl(0, 45%, 90%);
+  background-color:rgb(255, 230, 230);
 }
 
 #lf-grid div {
@@ -134,23 +141,22 @@ a {
 }
 
 /* footer */
-.circle-sl {
-    background: #696969;
-    border-radius: 50%;
-    padding:0.75rem;
 
+.circle-sl {
+  background: 	rgb(40,40,40);
+  border-radius: 50%;
+  padding: 0.7rem;
 }
 
 #f-1 a {
   color: #a7abaf;
-  font-size: 0.9rem;
-  margin: 1rem;
-
+  font-size: 0.75rem;
+  margin: 0.5rem;
 }
 
 #f-1 i {
   color: white;
-  margin: 1rem;
+  margin: 0.25rem;
 }
 
 #f-1 {
@@ -158,10 +164,16 @@ a {
   align-items: center;
   justify-content: space-between;
   align-content: center;
+  background-color: rgb(16, 16, 16);
+  border-color: #888888;
+}
 
+#f-2 img {
+  height: 0.75rem;
+}
 
-  background-color: #555;
-  height: 6.5rem;
+#f-2 b {
+  color: white;
 }
 
 #f-2 {
@@ -171,7 +183,9 @@ a {
   align-content: center;
   background-color: black;
   font-size: 0.75rem;
-  color: white;
+  color: #a7abaf;
+  margin: auto;
+  text-align: center;
 }
 
 #f-3 {
