@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -28,6 +35,65 @@ a {
 
 #nav-bar-2-bottom {
   background-color: yellow;
+}
+
+/* topic section */
+.topic1 {
+  background-color: rgb(128, 227, 252);
+  width: 65%;
+  padding: 5px;
+  height: 400px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.topic2 {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 6px;
+  background-color: rgb(0, 250, 146);
+  width: 32%;
+  padding: 5px;
+  height: 200px;
+  position: relative;
+}
+
+.topic1_d {
+  display: none;
+  float: right;
+  height: 50px;
+}
+
+.topic1_2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.topic2_2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.topic1_t {
+  font-size: 50px;
+  color: white;
+  font-weight: 750;
+  margin-top: 40px;
+}
+
+.topic2_t {
+  font-size: 25px;
+  color: white;
+  font-weight: 800;
+  margin-top: 60px;
+}
+
+.topic1_a {
+  font-size: 13px;
+  color: rgb(182, 182, 182);  
+  margin-bottom: 3px;
 }
 
 /* latest funding styling */
