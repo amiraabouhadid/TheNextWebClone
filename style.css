@@ -170,7 +170,7 @@ p {
   color: red;
   grid-template-columns: 100%;
   margin-bottom: 1%;
-  margin-top:1%;
+  margin-top: 1%;
 }
 
 #lf-links a {
@@ -306,16 +306,25 @@ p {
     margin-top: 1rem;
   }
 
+  #lf-h{
+    display: grid;
+    grid-template-columns: 100%;
+    width:90%;
+    text-align: left;
+  }
+
+  #lf-h div{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
   #lf-links p,
   a {
     visibility: visible;
-    grid-row: 1/span 5;
-  }
-
-  #lf-links {
-    grid-template-columns: repeat(15, 6.666666667%);
-    margin-top: 0.75rem;
-    grid-row-gap: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
   }
 
   .lf-h-t h3 {
@@ -332,6 +341,13 @@ p {
 
   #lf-4 {
     visibility: hidden;
+  }
+  #f-1-bottom{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #f-1{
+    height:10rem;
   }
 }
 
@@ -352,7 +368,35 @@ p {
     grid-template-columns: 25% 25% 25% 25%;
     grid-column-gap: 2.5%;
     width: 90%;
-    margin-top: 1rem;
-    height: 8rem;
   }
+  .lf-b{
+    height:8rem;
+  }
+  #lf-h{
+    display: grid;
+    grid-template-columns: 50% 15% 35%;
+    width:95%;
+    text-align: left;
+  }
+  #lf-h div{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  #lf-links p,
+  a {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  #f-1-bottom{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #f-1{
+    height:10rem;
+  }
+
 }
