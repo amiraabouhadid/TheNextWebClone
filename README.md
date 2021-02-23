@@ -7,7 +7,7 @@ Project 2 of Microverse 2.0 program: Building with Responsive Design
 
 We were asked to make a clone of The New World page using media query to work with 3 screen sizes: mobile, tablet, and desktop using mediaqueries.
 
-![READMESNEAKPEAK](https://user-images.githubusercontent.com/56790126/108226304-75532f00-7145-11eb-9f71-7916903fbc67.png)
+![project2screenshot](https://user-images.githubusercontent.com/56790126/108857404-ba6adb80-75f3-11eb-8b0b-8ed4f6ba9ed3.png)
 
 Project specifications can be found at https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
 

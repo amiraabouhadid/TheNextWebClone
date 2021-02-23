@@ -144,6 +144,24 @@ a {
   grid-template-columns: 100%;
 }
 
+.lf-b a,
+p {
+  margin: 2.5% 2.5% 2% 5%;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.lf-h-b p {
+  color: #000;
+  margin-left: 30%;
+  margin-bottom: 2.5%;
+  opacity: 0.5;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
 #lf-links p {
   visibility: hidden;
 }
@@ -152,15 +170,7 @@ a {
   color: red;
   grid-template-columns: 100%;
   margin-bottom: 1%;
-  grid-row-gap: 20%;
-}
-
-.lf-b a,
-p {
-  margin: 2.5% 2.5% 2% 5%;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 0.8rem;
-  opacity: 0.7;
+  margin-top:1%;
 }
 
 #lf-links a {
@@ -211,16 +221,6 @@ p {
   margin-top: 2.5%;
   font-size: 1.2rem;
   margin-bottom: 0%;
-}
-
-.lf-h-b p {
-  color: #000;
-  margin-left: 30%;
-  margin-bottom: 2.5%;
-  opacity: 0.5;
-  font-family: Shentox, sans-serif;
-  font-weight: 500;
-  font-size: 0.7rem;
 }
 
 .lf-h-b {
