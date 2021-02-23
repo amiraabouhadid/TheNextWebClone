@@ -65,7 +65,7 @@ a {
   background-image: url(./pictures/label1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width:100%;
+  width: 100%;
   padding: 5px;
   height: 110px;
 }
