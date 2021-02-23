@@ -97,14 +97,14 @@ a {
   font-size: 19px;
   color: white;
   font-weight: 700;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 .topic2_t {
   font-size: 19px;
   color: white;
   font-weight: 700;
-  margin-top: 4.5rem;
+  margin-top: 2.5rem;
 }
 
 .topic1_a {
@@ -175,11 +175,10 @@ p {
   grid-template-columns: 100%;
   grid-row-gap: 2.5%;
   width: 100%;
-
 }
 
 .lf-h-g img {
-  margin:3rem 0rem 1rem 1rem;
+  margin: 3rem 0rem 1rem 1rem;
   height: 3.5rem;
   width: 3.5rem;
   background-color: #f33;
@@ -292,7 +291,7 @@ p {
   float: right;
   right: 0%;
 }
-@media only screen and (min-width: 600px){
 
-}
-@media only screen and (min-width:768px)
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width:768px) {}
