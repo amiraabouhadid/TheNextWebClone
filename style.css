@@ -306,18 +306,19 @@ p {
     margin-top: 1rem;
   }
 
-  #lf-h{
+  #lf-h {
     display: grid;
     grid-template-columns: 100%;
-    width:90%;
+    width: 90%;
     text-align: left;
   }
 
-  #lf-h div{
-    display:flex;
+  #lf-h div {
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
+
   #lf-links p,
   a {
     visibility: visible;
@@ -342,61 +343,68 @@ p {
   #lf-4 {
     visibility: hidden;
   }
-  #f-1-bottom{
+
+  #f-1-bottom {
     display: flex;
     flex-flow: row wrap;
   }
-  #f-1{
-    height:10rem;
+
+  #f-1 {
+    height: 10rem;
   }
 }
 
 @media only screen and (min-width:1200px) {
   #lf-4-lf-b-1 {
-   visibility: visible;
- }
+    visibility: visible;
+  }
 
- #lf-4-lf-b-2 {
-   visibility: visible;
- }
+  #lf-4-lf-b-2 {
+    visibility: visible;
+  }
 
- #lf-4 {
-   visibility: visible;
- }
+  #lf-4 {
+    visibility: visible;
+  }
 
- #lf-grid {
-   grid-template-columns: 25% 25% 25% 25%;
-   grid-column-gap: 2.5%;
-   width: 90%;
- }
- .lf-b{
-   height:8rem;
- }
- #lf-h{
-   display: grid;
-   grid-template-columns: 50% 15% 35%;
-   width:95%;
-   text-align: left;
- }
- #lf-h div{
-   display:flex;
-   flex-flow: row wrap;
-   justify-content: space-between;
- }
- #lf-links p,
- a {
-   visibility: visible;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   align-content: center;
- }
- #f-1-bottom{
-   display: flex;
-   flex-flow: row wrap;
- }
- #f-1{
-   height:10rem;
- }
+  #lf-grid {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 2.5%;
+    width: 90%;
+  }
 
+  .lf-b {
+    height: 8rem;
+  }
+
+  #lf-h {
+    display: grid;
+    grid-template-columns: 50% 15% 35%;
+    width: 95%;
+    text-align: left;
+  }
+
+  #lf-h div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  #lf-links p,
+  a {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+
+  #f-1-bottom {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #f-1 {
+    height: 10rem;
+  }
 }
