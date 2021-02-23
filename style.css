@@ -96,14 +96,16 @@ a {
 .topic1_t {
   font-size: 19px;
   color: white;
-  font-weight: 700;
+  font-weight: 900;
+  opacity:1;
   margin-top: 0.5rem;
 }
 
 .topic2_t {
   font-size: 19px;
   color: white;
-  font-weight: 700;
+  font-weight: 900;
+  opacity:1;
   margin-top: 2.5rem;
 }
 
@@ -292,6 +294,11 @@ p {
   right: 0%;
 }
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 1024px) {
+  .todaytopic{
+    display: grid;
+    grid-area:
+  }
+}
 
-@media only screen and (min-width:768px) {}
+@media only screen and (min-width:1200px) {}
