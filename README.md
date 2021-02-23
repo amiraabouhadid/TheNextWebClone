@@ -32,9 +32,7 @@ Project requirements: clean, code, semantic HTML, use mediaquery.
 
 👤 **Author2**
 
-- GitHub: [@amiraabouhadid](https://github.com/amiraabouhadid)
-- Twitter: [@AbouhadidAmira](https://twitter.com/AbouhadidAmira)
-- LinkedIn: [amira-abouhadid](https://linkedin.com/amira-abouhadid)
+- GitHub: [@Deepakdanger](https://github.com/Deepakdanger)
 
 
 ## 🤝 Contributing
