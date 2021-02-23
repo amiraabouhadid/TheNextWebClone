@@ -148,6 +148,14 @@ a {
   grid-row-gap: 20%;
 }
 
+.lf-b a,
+p {
+  margin: 2.5% 2.5% 2% 5%;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
 #lf-links a {
   color: red;
   font-size: 1rem;
@@ -199,14 +207,6 @@ a {
   margin-top: 2.5%;
   font-size: 1.2rem;
   margin-bottom: 0%;
-}
-
-.lf-b a,
-p {
-  margin: 2.5% 2.5% 2% 5%;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 0.8rem;
-  opacity: 0.7;
 }
 
 .lf-h-b p {
