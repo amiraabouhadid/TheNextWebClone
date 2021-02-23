@@ -1,9 +1,7 @@
 html {
   overflow-x: hidden;
 }
-body{
-  width:100%;
-}
+
 a {
   text-decoration: none;
   color: black;
@@ -41,7 +39,7 @@ a {
 
 #latestfunding {
   width: 90%;
-  margin: 2.5% auto 2.5% auto;
+  margin: 25% auto 25% auto;
   grid-template-columns: 100%;
 }
 
@@ -50,19 +48,18 @@ a {
   font-size: 1.5rem;
   font-weight: 900;
   font-family: Avalon, sans-serif;
-  width:100%;
+  width: 100%;
 }
 
 #lf-h {
   grid-template-columns: 100%;
-
 }
 
 #lf-links {
   color: red;
   grid-template-columns: 100%;
   margin-bottom: 1%;
-  grid-row-gap:20%;
+  grid-row-gap: 20%;
 }
 
 #lf-links a {
@@ -72,7 +69,6 @@ a {
 }
 
 /* individual grid items */
-
 #lf-grid cite {
   opacity: 0.5;
   font-size: 0.75rem;
@@ -80,58 +76,73 @@ a {
 }
 
 #lf-grid {
-  margin-top:10%;
+  margin-top: 10%;
   grid-template-columns: 100%;
   grid-row-gap: 2.5%;
-
+  width: 100%;
 }
 
 .lf-h-g img {
   position: relative;
   left: 5%;
-  top: 10%;
+  top: 50%;
   bottom: 80%;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 4rem;
+  width: 4rem;
   background-color: #f33;
 }
 
-.lf-h-t {
-  background-color: #f33;
+.lf-h-t h3 {
   color: white;
+  font-size: 1.25rem;
+  margin-left: 10%;
+}
+
+.lf-h-t {
+  background-color: #FF4500;
   display: flex;
   height: 2.75rem;
   flex-flow: column wrap;
-  justify-content: flex-start;
   align-items: flex-start;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.lf-h-b b {
+  margin-left: 30%;
+  margin-top: 2.5%;
 }
 
 .lf-h-b p {
   color: #000;
+  margin-left: 30%;
+  margin-bottom: 2.5%;
   opacity: 0.5;
   font-family: Shentox, sans-serif;
   font-weight: 500;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
 }
 
 .lf-h-b {
   display: flex;
-  align-items: center;
+  align-content: flex-start;
   flex-flow: column;
   background-color: rgb(255, 230, 230);
 }
-.lf-b a{
-  margin: 2.5% 2.5% 2.5% 5%;
+
+.lf-b a, p {
+  margin: 2.5% 2.5% 2% 5%;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.7;
 }
+
 .lf-b {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
   justify-content: flex-start;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 0.85rem;
-  opacity: 0.6;
-  background-color:rgb(255, 230, 230);
+  background-color: #fcedeb;
 }
 
 #lf-grid div {
@@ -141,9 +152,8 @@ a {
 }
 
 /* footer */
-
 .circle-sl {
-  background: 	rgb(40,40,40);
+  background: rgb(40, 40, 40);
   border-radius: 50%;
   padding: 0.7rem;
 }
@@ -162,10 +172,11 @@ a {
 #f-1 {
   flex-flow: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   background-color: rgb(16, 16, 16);
   border-color: #888888;
+  height: 5rem;
 }
 
 #f-2 img {
@@ -184,8 +195,8 @@ a {
   background-color: black;
   font-size: 0.75rem;
   color: #a7abaf;
-  margin: auto;
   text-align: center;
+  height: 8rem;
 }
 
 #f-3 {
