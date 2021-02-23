@@ -299,6 +299,187 @@ p {
 }
 
 @media only screen and (min-width: 1024px) {
+  #nav-bar-2 {
+    display: none;
+  }
+
+  .image_logo {
+    display: block;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 75px;
+    width: 105px;
+  }
+
+  header {
+    position: fixed;
+    z-index: 9;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+  }
+
+  #nav-bar-1 {
+    display: block;
+    background-color: white;
+    z-index: 500;
+    overflow: hidden;
+  }
+
+  #nav-bar-1-top {
+    position: fixed;
+    top: 0.1px;
+    margin-left: 100px;
+    width: 92%;
+    height: 25px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: space-between;
+    font-size: 13px;
+  }
+
+  #nav-bar-1-top-left {
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  #nav-bar-1-top-right {
+    float: right;
+    margin-right: 30px;
+  }
+
+  .nav-top-element {
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  #nav-bar-1-middle {
+    position: fixed;
+    top: 25px;
+    display: flex;
+    width: 92%;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 100px;
+  }
+
+  .shift {
+    display: none;
+  }
+
+  #nav-bar-1-middle-left {
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+  }
+
+  .nav-middle-element {
+    margin-left: 10px;
+  }
+
+  .fa-search {
+    margin-top: 15px;
+    margin-right: 30px;
+    color: #555;
+  }
+
+  #nav-bar-1-middle-right {
+    border-left: black;
+    border-width: 1px;
+  }
+
+  #nav-bar-1-bottom {
+    position: fixed;
+    top: 75px;
+    width: 100%;
+    background-color: yellow;
+    height: 25px;
+    font-size: 15px;
+  }
+
+  .nav-bar-1-bottom-element {
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .todaytopic {
+    margin-top: 120px;
+  }
+
+  .topic1 {
+    background-color: rgb(128, 227, 252);
+    width: 57%;
+    padding: 5px;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+
+  .topic2 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 39%;
+    padding: 5px;
+    height: 200px;
+  }
+
+  .topic3 {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 6px;
+    width: 39%;
+    padding: 5px;
+    height: 200px;
+  }
+
+  .topic1_d {
+    display: none;
+  }
+
+  .topic1_2 {
+    position: relative;
+    top: 55%;
+    left: 0%;
+  }
+
+  .topic2_2 {
+    position: relative;
+    top: 18%;
+    left: 0%;
+  }
+
+  .topic1_t {
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    z-index: 5;
+  }
+
+  .topic2_t {
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+    margin-top: 60px;
+  }
+
+  .topic1_a {
+    font-size: 13px;
+    color: rgb(29, 25, 25);
+    margin-bottom: 3px;
+  }
+
   #lf-grid {
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 2.5%;
@@ -355,6 +536,84 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
+  #nav-bar-2 {
+    display: none;
+  }
+
+  .image_logo {
+    display: none;
+  }
+
+  #nav-bar-1-top {
+    width: 100%;
+    margin-left: 0.1%;
+  }
+
+  #nav-bar-1-middle {
+    width: 100%;
+    margin-left: 0.1%;
+  }
+
+  #nav-bar-1-middle-left {
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+  }
+
+  .topic1 {
+    width: 70%;
+    padding: 5px;
+    height: 460px;
+  }
+
+  .topic2 {
+    width: 28%;
+    height: 230px;
+  }
+
+  .topic3 {
+    width: 28%;
+    height: 230px;
+  }
+
+  .topic1_d {
+    display: none;
+  }
+
+  .topic1_2 {
+    position: relative;
+    top: 40%;
+    left: 0%;
+  }
+
+  .topic2_2 {
+    position: relative;
+    top: 23%;
+    left: 0%;
+  }
+
+  .topic1_t {
+    font-size: 50px;
+    color: white;
+    font-weight: 750;
+    margin-top: 40px;
+  }
+
+  .topic2_t {
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+    margin-top: 60px;
+  }
+
+  .topic1_a {
+    font-size: 13px;
+    color: rgb(29, 25, 25);
+    margin-bottom: 3px;
+  }
+
   #lf-4-lf-b-1 {
     visibility: visible;
   }
