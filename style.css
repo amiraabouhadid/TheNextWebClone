@@ -309,27 +309,50 @@ p {
   #lf-links p,
   a {
     visibility: visible;
-    grid-row:1/span 5 ;
+    grid-row: 1/span 5;
   }
 
   #lf-links {
     grid-template-columns: repeat(15, 6.666666667%);
     margin-top: 0.75rem;
-    grid-row-gap:0%;
+    grid-row-gap: 0%;
   }
 
   .lf-h-t h3 {
     margin-left: 5%;
   }
-  #lf-4-lf-b-1{
+
+  #lf-4-lf-b-1 {
     visibility: hidden;
   }
-#lf-4-lf-b-2{
-  visibility: hidden;
-}
+
+  #lf-4-lf-b-2 {
+    visibility: hidden;
+  }
+
   #lf-4 {
     visibility: hidden;
   }
 }
 
-@media only screen and (min-width:1200px) {}
+@media only screen and (min-width:1200px) {
+  #lf-4-lf-b-1 {
+    visibility: visible;
+  }
+
+  #lf-4-lf-b-2 {
+    visibility: visible;
+  }
+
+  #lf-4 {
+    visibility: visible;
+  }
+
+  #lf-grid {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 2.5%;
+    width: 90%;
+    margin-top: 1rem;
+    height:8rem;
+  }
+}
