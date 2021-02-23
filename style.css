@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+.lf-h-t a {
+  color: white;
+  font-size: 1.25rem;
+  margin-left: 30%;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -144,8 +150,7 @@ a {
   grid-template-columns: 100%;
 }
 
-.lf-b a,
-p {
+.lf-b a {
   margin: 2.5% 2.5% 2% 5%;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 0.8rem;
@@ -198,12 +203,6 @@ p {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #f33;
-}
-
-.lf-h-t h3 {
-  color: white;
-  font-size: 1.25rem;
-  margin-left: 10%;
 }
 
 .lf-h-t {
@@ -298,7 +297,7 @@ p {
   right: 0%;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   #nav-bar-2 {
     display: none;
   }
@@ -511,6 +510,7 @@ p {
 
   .lf-h-t h3 {
     margin-left: 5%;
+    color: white;
   }
 
   #lf-4-lf-b-1 {
@@ -535,7 +535,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   #nav-bar-2 {
     display: none;
   }
