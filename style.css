@@ -97,7 +97,7 @@ a {
   font-size: 19px;
   color: white;
   font-weight: 900;
-  opacity:1;
+  opacity: 1;
   margin-top: 0.5rem;
 }
 
@@ -105,7 +105,7 @@ a {
   font-size: 19px;
   color: white;
   font-weight: 900;
-  opacity:1;
+  opacity: 1;
   margin-top: 2.5rem;
 }
 
@@ -142,6 +142,10 @@ a {
 
 #lf-h {
   grid-template-columns: 100%;
+}
+
+#lf-links p {
+  visibility: hidden;
 }
 
 #lf-links {
@@ -295,9 +299,36 @@ p {
 }
 
 @media only screen and (min-width: 1024px) {
-  .todaytopic{
-    display: grid;
-    grid-area:
+  #lf-grid {
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 2.5%;
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  #lf-links p,
+  a {
+    visibility: visible;
+    grid-row:1/span 5 ;
+  }
+
+  #lf-links {
+    grid-template-columns: repeat(15, 6.666666667%);
+    margin-top: 0.75rem;
+    grid-row-gap:0%;
+  }
+
+  .lf-h-t h3 {
+    margin-left: 5%;
+  }
+  #lf-4-lf-b-1{
+    visibility: hidden;
+  }
+#lf-4-lf-b-2{
+  visibility: hidden;
+}
+  #lf-4 {
+    visibility: hidden;
   }
 }
 
