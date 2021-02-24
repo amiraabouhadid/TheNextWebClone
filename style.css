@@ -128,8 +128,17 @@ a:active {
 }
 
 /* latest news */
+#latestnews {
+  width:90%;
+  margin:2rem auto 2rem auto;
+
+}
 #latestnews h2 {
-  padding: 0.5rem;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: Avalon, sans-serif;
+  width: 100%;
 }
 
 #ln-articles-container img {
