@@ -5,11 +5,9 @@
   box-sizing: border-box;
 }
 
-a:hover,
-a:focus,
-a:active {
+a {
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 h2 {
@@ -982,7 +980,6 @@ h2 {
 
   /* latest news */
   #latestnews {
-    width: 75%;
     margin: auto;
   }
 
