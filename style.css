@@ -157,7 +157,11 @@ a:active {
   margin: 0.5rem 0.5rem;
 }
 
-.ln-text:hover {
+.ln-text a {
+  color: black;
+}
+
+.ln-text a:hover {
   color: #f42;
 }
 
