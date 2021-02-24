@@ -198,7 +198,7 @@ a {
   width: 100%;
 }
 
-.image_if {
+.lf-h-g img {
   margin: 3rem 0 1rem 1rem;
   height: 3.5rem;
   width: 3.5rem;
@@ -271,7 +271,7 @@ a {
   height: 5rem;
 }
 
-.f_2img {
+#f-2 img {
   height: 0.8rem;
 }
 
@@ -344,12 +344,10 @@ a {
     height: 25px;
     display: flex;
     text-align: center;
-    align-items: center;
-    background-color: rgb(31, 29, 29);
+    background-color: rgb(0, 0, 0);
     color: white;
     justify-content: space-between;
-    font-size: 1rem;
-    font-weight: 550;
+    font-size: 13px;
   }
 
   #nav-bar-1-top-left {
@@ -489,7 +487,7 @@ a {
     margin-bottom: 3px;
   }
 
-  /*latest funding */
+  /* latest funding */
   #lf-grid {
     grid-template-columns: 100%;
     grid-column-gap: 2.5%;
@@ -520,6 +518,10 @@ a {
     margin-top: 0.5rem;
   }
 
+  .lf-h-b p {
+    margin-left: 10rem;
+  }
+
   #lf-links p {
     visibility: hidden;
   }
@@ -528,11 +530,7 @@ a {
     margin-left: 10rem;
   }
 
-  .lf-h-b p {
-    margin-left: 10rem;
-  }
-
-  .image_if{
+  .lf-h-t img {
     height: 6rem;
     width: 6rem;
     margin-top: 5rem;
@@ -624,7 +622,7 @@ a {
     font-size: 50px;
     color: white;
     font-weight: 750;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .topic2_t {
@@ -641,13 +639,11 @@ a {
   }
 
   .aside_date {
-    visibility: visible;
     display: block;
     position: absolute;
     top: 140px;
     left: 0%;
     width: 70%;
-    z-index: 900;
   }
 
   .date_a {
@@ -664,16 +660,16 @@ a {
     left: 0%;
     width: 40%;
     margin-left: 20px;
-    z-index: 900;
   }
 
   .logo1 {
     float: left;
     width: 70%;
-    height: 50% color;
+    height: 50%;
+    color: white;
   }
 
-  /*latest funcing */
+  /* latest funcing */
   #lf-grid {
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 2.5%;
@@ -708,6 +704,10 @@ a {
     flex-flow: row wrap;
   }
 
+  .lf-h-b p {
+    margin-left: 6.5rem;
+  }
+
   #lf-links p {
     visibility: visible;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -717,14 +717,10 @@ a {
     margin-left: 6.5rem;
   }
 
-  .lf-h-b p {
-    margin-left: 6.5rem;
-  }
-
-  .image_if {
+  .lf-h-t img {
     height: 3.5rem;
     width: 3.5rem;
-    margin-top: 3srem;
+    margin-top: 3rem;
   }
 
   .lf-h-t h3 {
