@@ -129,7 +129,7 @@ a {
 
 /* your styling for latest news goes here */
 
-#latestnews article {
+#ln-articles-container article {
   display: flex;
 }
 
@@ -588,6 +588,10 @@ a {
     flex-flow: row wrap;
     margin-top: 0.5rem;
   }
+
+  /* latest news@ min-width 768 */
+  #latestnews {}
+
 }
 
 @media only screen and (min-width: 1024px) {
