@@ -294,7 +294,15 @@
     right: 0%;
   }
   
-  @media only screen and (min-width: 1024px) {
+  .aside_date {
+    display: none;
+  }
+
+  .tnw_logo {
+    display: none;
+  }
+  
+  @media only screen and (min-width: 768px) {
     #nav-bar-2 {
       display: none;
     }
@@ -425,7 +433,7 @@
     .topic2 {
       display: grid;
       grid-template-columns: auto;
-      width:39%;
+      width:35%;
       padding: 5px;
       height: 200px;    
     }
@@ -434,7 +442,7 @@
       display: grid;
       grid-template-columns: auto;
       margin-top: 6px;
-      width: 39%;
+      width: 35%;
       padding: 5px;
       height: 200px;
     }
@@ -466,7 +474,7 @@
     .topic2_t {
       font-size: 25px;
       color: white;
-      font-weight: 800;
+      font-weight: 700;
       margin-top: 60px;
     }
     
@@ -477,7 +485,7 @@
     }
   }
   
-  @media only screen and (min-width:1200px) {
+  @media only screen and (min-width: 1024px) {
     #nav-bar-2 {
       display: none;
     }
@@ -508,15 +516,16 @@
       width: 70%;
       padding: 5px;
       height: 460px;
+      background-image: linear-gradient(to bottom, rgb(201, 102, 102, 0.9) , rgb(236, 231, 231, 0.5)), url(./pictures/label1.jpg);
     }
     
     .topic2 {
-      width: 28%;    
-      height: 230px;  
+      width: 25%;    
+      height: 230px;       
     }
     
     .topic3 {
-      width: 28%;
+      width: 25%;
       height: 230px;
     }
     
@@ -554,6 +563,38 @@
       font-size: 13px;
       color: rgb(29, 25, 25);
       margin-bottom: 3px;
+    }
+
+    .aside_date {
+      display: block;
+      position: absolute;
+      top: 140px;
+      left: 0%;
+      width: 70%;
+      z-index: 800;
+    }
+
+    .date_a {
+      float: right;
+      color: white;
+      font-size: 18px;
+      font-weight: 200;
+    }
+
+    .tnw_logo {
+      display: block;
+      position: absolute;
+      top: 140px;
+      left: 0%;
+      width: 40%;
+      margin-left: 60px;
+    }
+
+    .logo1 {
+      float: right;
+      background: transparent;
+      width: 500px;
+      height: 200px;
     }
   }
   
