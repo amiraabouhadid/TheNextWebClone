@@ -10,6 +10,13 @@ a {
   color: black;
 }
 
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 .lf-h-t a {
   color: ghostwhite;
   font-size: 1.25rem;
