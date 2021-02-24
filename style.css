@@ -126,15 +126,27 @@ a {
 }
 
 /* latest news */
-/*your styling for latest news goes here */
+
+/* your styling for latest news goes here */
+
+#latestnews article {
+  display: flex;
+}
+
+.ln-text {
+  flex-direction: column;
+}
+
 /* latest funding styling */
+
 .lf-bhr {
   border: 0.2px solid red;
   width: 100%;
   opacity: 0.2;
 }
 
-#latestfunding {
+#latestfunding,
+#latestnews {
   width: 90%;
   margin: 25% auto 25% auto;
   grid-template-columns: 100%;
