@@ -138,10 +138,30 @@ a {
   display: flex;
   width: 100%;
   position: relative;
+  padding: 8px;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .ln-text {
   flex-direction: column;
+}
+
+#ln-articles-container article ul {
+  padding-top: 0.25rem;
+}
+
+#ln-articles-container article ul li {
+  color: #aaa;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  list-style: none;
+}
+
+#ln-articles-container article ul li:nth-child(1)::after {
+  content: "\B7";
+  display: block;
+  float: right;
+  margin: 0 0.5rem;
 }
 
 /* latest funding styling */
@@ -603,6 +623,8 @@ a {
 
   #ln-articles-container article {
     flex-direction: column;
+    padding: 10px;
+
   }
 
   #ln-articles-container img {
@@ -806,5 +828,11 @@ a {
   #ln-articles-container img {
     max-width: 100%;
     width: 17rem;
+  }
+
+  #ln-articles-container article {
+    flex-direction: column;
+    padding: 12px;
+
   }
 }
