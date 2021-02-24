@@ -590,8 +590,13 @@ a {
   }
 
   /* latest news@ min-width 768 */
-  #latestnews {}
+  #ln-articles-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
+  #ln-articles-container article {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -779,5 +784,10 @@ a {
 
   #f-1 {
     height: 10rem;
+  }
+
+  /* latest news@1024 */
+  #ln-articles-container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
