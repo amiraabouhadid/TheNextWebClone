@@ -12,6 +12,15 @@ a:active {
   color: inherit;
 }
 
+h2 {
+  color: red;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: Avalon, sans-serif;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
 .lf-h-t a {
   color: ghostwhite;
   font-size: 1.25rem;
@@ -129,16 +138,8 @@ a:active {
 
 /* latest news */
 #latestnews {
-  width:90%;
-  margin:2rem auto 2rem auto;
-
-}
-#latestnews h2 {
-  color: red;
-  font-size: 1.5rem;
-  font-weight: 900;
-  font-family: Avalon, sans-serif;
-  width: 100%;
+  width: 90%;
+  margin: 2rem auto 2rem auto;
 }
 
 #ln-articles-container img {
@@ -204,14 +205,6 @@ a:active {
   width: 90%;
   margin: 10% auto 0 auto;
   grid-template-columns: 100%;
-}
-
-#latestfunding h2 {
-  color: red;
-  font-size: 1.5rem;
-  font-weight: 900;
-  font-family: Avalon, sans-serif;
-  width: 100%;
 }
 
 #lf-h {
@@ -316,15 +309,6 @@ a:active {
   grid-template-columns: 100%;
   width: 90%;
   margin: 0 auto 10% auto;
-}
-
-#categories h2 {
-  color: red;
-  font-size: 1.5rem;
-  font-weight: 900;
-  font-family: Avalon, sans-serif;
-  width: 100%;
-  margin-bottom: 0.75rem;
 }
 
 #hfhead,
@@ -481,14 +465,6 @@ a:active {
   grid-template-columns: 60% 40%;
   grid-gap: 10%;
   width: 90%;
-}
-
-#ld-h h2 {
-  color: red;
-  font-size: 1.5rem;
-  font-weight: 900;
-  font-family: Avalon, sans-serif;
-  width: 100%;
 }
 
 .ld-div-img {
