@@ -129,6 +129,10 @@ a {
 
 /* your styling for latest news goes here */
 
+#ln-articles-container img {
+  max-width: 100%;
+}
+
 #ln-articles-container article {
   display: flex;
 }
