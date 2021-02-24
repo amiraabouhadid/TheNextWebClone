@@ -126,7 +126,7 @@ a {
 }
 
 /* latest funding styling */
-.lf-b hr {
+.lf-bhr {
   border: 0.2px solid red;
   width: 100%;
   opacity: 0.2;
@@ -150,7 +150,7 @@ a {
   grid-template-columns: 100%;
 }
 
-.lf-b a {
+.lf-ba {
   margin: 2.5% 2.5% 2% 5%;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 0.8rem;
@@ -178,7 +178,7 @@ a {
   margin-top: 1%;
 }
 
-#lf-links a {
+.lf-linksa {
   color: red;
   font-size: 1rem;
   font-family: Avalon, sans-serif;
@@ -295,6 +295,14 @@ a {
   position: fixed;
   float: right;
   right: 0%;
+}
+
+.aside_date {
+  display: none;
+}
+
+.tnw_logo {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -429,7 +437,7 @@ a {
   .topic2 {
     display: grid;
     grid-template-columns: auto;
-    width: 39%;
+    width: 35%;
     padding: 5px;
     height: 200px;
   }
@@ -438,7 +446,7 @@ a {
     display: grid;
     grid-template-columns: auto;
     margin-top: 6px;
-    width: 39%;
+    width: 35%;
     padding: 5px;
     height: 200px;
   }
@@ -479,8 +487,9 @@ a {
     margin-bottom: 3px;
   }
 
+  /*latest funding */
   #lf-grid {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 100%;
     grid-column-gap: 2.5%;
     width: 90%;
     margin-top: 1rem;
@@ -499,39 +508,53 @@ a {
     justify-content: space-between;
   }
 
-  #lf-links p,
-  a {
+  .lf-linksa {
     visibility: visible;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  #lf-links p {
+    visibility: hidden;
+  }
+
+  .lf-h-b b {
+    margin-left: 10rem;
+  }
+
+  .lf-h-b p {
+    margin-left: 10rem;
+  }
+
+  .lf-h-t img {
+    height: 6rem;
+    width: 6rem;
+    margin-top: 5rem;
   }
 
   .lf-h-t h3 {
-    margin-left: 5%;
+    margin-left: 2rem;
     color: white;
   }
 
-  #lf-4-lf-b-1 {
-    visibility: hidden;
+  .lf-h-t {
+    height: 4rem;
   }
 
-  #lf-4-lf-b-2 {
-    visibility: hidden;
-  }
-
-  #lf-4 {
-    visibility: hidden;
+  /* footer */
+  #f-1 {
+    height: 10rem;
+    font-size: 1rem;
   }
 
   #f-1-bottom {
     display: flex;
     flex-flow: row wrap;
-  }
-
-  #f-1 {
-    height: 10rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -566,15 +589,16 @@ a {
     width: 70%;
     padding: 5px;
     height: 460px;
+    background-image: linear-gradient(to bottom, rgb(201, 102, 102, 0.9), rgb(236, 231, 231, 0.5)), url(./pictures/label1.jpg);
   }
 
   .topic2 {
-    width: 28%;
+    width: 25%;
     height: 230px;
   }
 
   .topic3 {
-    width: 28%;
+    width: 25%;
     height: 230px;
   }
 
@@ -614,50 +638,104 @@ a {
     margin-bottom: 3px;
   }
 
-  #lf-4-lf-b-1 {
-    visibility: visible;
+  .aside_date {
+    display: block;
+    position: absolute;
+    top: 140px;
+    left: 0%;
+    width: 70%;
   }
 
-  #lf-4-lf-b-2 {
-    visibility: visible;
+  .date_a {
+    float: right;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
   }
 
-  #lf-4 {
-    visibility: visible;
+  .tnw_logo {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0%;
+    width: 40%;
+    margin-left: 20px;
   }
 
+  .logo1 {
+    float: left;
+    width: 70%;
+    height: 50% color: white;
+  }
+
+  /*latest funcing */
   #lf-grid {
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
     grid-column-gap: 2.5%;
     width: 90%;
+    margin-top: 1rem;
   }
 
-  .lf-b {
-    height: 8rem;
+  #lf-h h2 {
+    font-size: 2.5rem;
   }
 
   #lf-h {
     display: grid;
-    grid-template-columns: 50% 15% 35%;
-    width: 95%;
+    grid-template-columns: 100%;
+    width: 90%;
     text-align: left;
   }
 
-  #lf-h div {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-
-  #lf-links p,
-  a {
+  .lf-linksa {
     visibility: visible;
+    font-size: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
 
+  #lf-links {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #lf-links p {
+    visibility: visible;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .lf-h-b b {
+    margin-left: 6.5rem;
+  }
+
+  .lf-h-b p {
+    margin-left: 6.5rem;
+  }
+
+  .lf-h-t img {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-top: 3srem;
+  }
+
+  .lf-h-t h3 {
+    margin-left: 0.25rem;
+    color: white;
+  }
+
+  .lf-h-t {
+    height: 3rem;
+  }
+
+  #lf-4 {
+    visibility: hidden;
+  }
+
+  /* footer */
   #f-1-bottom {
     display: flex;
     flex-flow: row wrap;
