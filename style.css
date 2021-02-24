@@ -298,11 +298,11 @@ a {
 }
 
 .aside_date {
-  display: none;
+  visibility: hidden;
 }
 
 .tnw_logo {
-  display: none;
+  visibility: hidden;
 }
 
 @media only screen and (min-width: 768px) {
@@ -344,10 +344,12 @@ a {
     height: 25px;
     display: flex;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    align-items: center;
+    background-color: rgb(31, 29, 29);
     color: white;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 1rem;
+    font-weight: 550;
   }
 
   #nav-bar-1-top-left {
@@ -639,11 +641,13 @@ a {
   }
 
   .aside_date {
+    visibility: visible;
     display: block;
     position: absolute;
     top: 140px;
     left: 0%;
     width: 70%;
+    z-index: 900;
   }
 
   .date_a {
