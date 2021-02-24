@@ -198,7 +198,7 @@ a {
   width: 100%;
 }
 
-.lf-h-g img {
+.image_if {
   margin: 3rem 0 1rem 1rem;
   height: 3.5rem;
   width: 3.5rem;
@@ -271,7 +271,7 @@ a {
   height: 5rem;
 }
 
-#f-2 img {
+.f_2img {
   height: 0.8rem;
 }
 
@@ -344,10 +344,12 @@ a {
     height: 25px;
     display: flex;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    align-items: center;
+    background-color: rgb(31, 29, 29);
     color: white;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 1rem;
+    font-weight: 550;
   }
 
   #nav-bar-1-top-left {
@@ -530,7 +532,7 @@ a {
     margin-left: 10rem;
   }
 
-  .lf-h-t img {
+  .image_if{
     height: 6rem;
     width: 6rem;
     margin-top: 5rem;
@@ -622,7 +624,7 @@ a {
     font-size: 50px;
     color: white;
     font-weight: 750;
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   .topic2_t {
@@ -639,11 +641,13 @@ a {
   }
 
   .aside_date {
+    visibility: visible;
     display: block;
     position: absolute;
     top: 140px;
     left: 0%;
     width: 70%;
+    z-index: 900;
   }
 
   .date_a {
@@ -660,12 +664,13 @@ a {
     left: 0%;
     width: 40%;
     margin-left: 20px;
+    z-index: 900;
   }
 
   .logo1 {
     float: left;
     width: 70%;
-    height: 50% color: white;
+    height: 50% color;
   }
 
   /*latest funcing */
@@ -716,7 +721,7 @@ a {
     margin-left: 6.5rem;
   }
 
-  .lf-h-t img {
+  .image_if {
     height: 3.5rem;
     width: 3.5rem;
     margin-top: 3srem;
