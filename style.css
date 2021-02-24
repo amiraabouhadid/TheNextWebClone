@@ -489,10 +489,14 @@ a {
 
   /* latest funding */
   #lf-grid {
-    grid-template-columns: 100%;
-    grid-column-gap: 2.5%;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1.5%;
     width: 90%;
     margin-top: 1rem;
+  }
+
+  #lf-h h2 {
+    font-size: 2.5rem;
   }
 
   #lf-h {
@@ -502,47 +506,55 @@ a {
     text-align: left;
   }
 
-  #lf-h div {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-
   .lf-linksa {
     visibility: visible;
+    font-size: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
+    text-align: center;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  #lf-links {
+    display: flex;
+    flex-flow: row wrap;
   }
 
   .lf-h-b p {
-    margin-left: 10rem;
+    margin-left: 5rem;
   }
 
   #lf-links p {
-    visibility: hidden;
+    visibility: visible;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
 
   .lf-h-b b {
-    margin-left: 10rem;
+    margin-left: 5rem;
   }
 
   .lf-h-t img {
-    height: 6rem;
-    width: 6rem;
-    margin-top: 5rem;
+    height: 3rem;
+    width: 3rem;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
   }
 
   .lf-h-t h3 {
-    margin-left: 2rem;
+    margin-left: 0rem;
     color: white;
+    font-size: 1rem;
+    text-align: left;
   }
 
   .lf-h-t {
-    height: 4rem;
+    height: 3rem;
+  }
+
+  #lf-4 {
+    visibility: hidden;
   }
 
   /* footer */
@@ -671,31 +683,26 @@ a {
 
   /* latest funcing */
   #lf-grid {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-column-gap: 2.5%;
     width: 90%;
     margin-top: 1rem;
   }
 
   #lf-h h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   #lf-h {
     display: grid;
-    grid-template-columns: 100%;
-    width: 90%;
+    grid-template-columns: 60% 40%;
+    width: 100%;
     text-align: left;
   }
 
   .lf-linksa {
     visibility: visible;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
+    font-size: 1.5rem;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
 
@@ -733,7 +740,7 @@ a {
   }
 
   #lf-4 {
-    visibility: hidden;
+    visibility: visible;
   }
 
   /* footer */
