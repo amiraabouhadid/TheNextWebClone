@@ -570,8 +570,7 @@
       position: absolute;
       top: 140px;
       left: 0%;
-      width: 70%;
-      z-index: 800;
+      width: 70%;      
     }
 
     .date_a {
@@ -584,17 +583,17 @@
     .tnw_logo {
       display: block;
       position: absolute;
-      top: 140px;
+      top: 80px;
       left: 0%;
       width: 40%;
-      margin-left: 60px;
+      margin-left: 20px;
     }
 
     .logo1 {
-      float: right;
-      background: transparent;
-      width: 500px;
-      height: 200px;
+      float: left;
+      width: 70%;
+      height: 50%
+      color: white;
     }
   }
   
