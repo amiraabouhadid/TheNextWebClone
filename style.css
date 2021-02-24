@@ -202,7 +202,7 @@ a:active {
 
 #latestfunding {
   width: 90%;
-  margin: 25% auto 25% auto;
+  margin: 10% auto 0 auto;
   grid-template-columns: 100%;
 }
 
@@ -315,7 +315,7 @@ a:active {
 #categories {
   grid-template-columns: 100%;
   width: 90%;
-  margin: auto;
+  margin: 0 auto 10% auto;
 }
 
 #categories h2 {
