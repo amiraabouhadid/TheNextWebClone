@@ -125,6 +125,8 @@ a {
   display: grid;
 }
 
+/* latest news */
+/*your styling for latest news goes here */
 /* latest funding styling */
 .lf-bhr {
   border: 0.2px solid red;
@@ -487,6 +489,10 @@ a {
     margin-bottom: 3px;
   }
 
+  /* latest news section */
+
+  /* your styling goes here! */
+
   /* latest funding */
   #lf-grid {
     grid-template-columns: 33% 33% 33%;
@@ -680,6 +686,8 @@ a {
     height: 50%;
     color: white;
   }
+  /* latest news */
+  /*your code goes here */
 
   /* latest funcing */
   #lf-grid {
