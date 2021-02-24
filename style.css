@@ -131,10 +131,13 @@ a {
 
 #ln-articles-container img {
   max-width: 100%;
+  width: 5rem;
 }
 
 #ln-articles-container article {
   display: flex;
+  width: 100%;
+  position: relative;
 }
 
 .ln-text {
@@ -601,6 +604,11 @@ a {
   #ln-articles-container article {
     flex-direction: column;
   }
+
+  #ln-articles-container img {
+    max-width: 100%;
+    width: 14rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -793,5 +801,10 @@ a {
   /* latest news@1024 */
   #ln-articles-container {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  #ln-articles-container img {
+    max-width: 100%;
+    width: 17rem;
   }
 }
