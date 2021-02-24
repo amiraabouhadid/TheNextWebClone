@@ -5,9 +5,11 @@
   box-sizing: border-box;
 }
 
-a {
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 .lf-h-t a {
@@ -126,7 +128,62 @@ a {
 }
 
 /* latest news */
-/*your styling for latest news goes here */
+#latestnews h2 {
+  padding: 0.5rem;
+}
+
+#ln-articles-container img {
+  max-width: 100%;
+  width: 5rem;
+  height: 5rem;
+}
+
+#ln-articles-container article {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 0.5rem;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.ln-text {
+  flex-direction: column;
+  margin: 0.5rem 0.5rem;
+  flex: 0 0 75%;
+}
+
+.ln-text a {
+  color: black;
+}
+
+.ln-text a:hover {
+  color: #f42;
+}
+
+#ln-articles-container article h4 {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 700;
+}
+
+#ln-articles-container article ul {
+  padding-top: 0.25rem;
+}
+
+#ln-articles-container article ul li {
+  color: #aaa;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  list-style: none;
+}
+
+#ln-articles-container article ul li:nth-child(1)::after {
+  content: "\B7";
+  display: block;
+  float: right;
+  margin: 0 0.5rem;
+}
+
 /* latest funding styling */
 .lf-bhr {
   border: 0.2px solid red;
@@ -700,7 +757,24 @@ a {
   }
 
   /* latest news section */
-  /* your styling goes here! */
+  .ln-text {
+    margin: 0.5rem 0;
+  }
+
+  #ln-articles-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #ln-articles-container article {
+    flex-direction: column;
+    padding: 0.625rem;
+  }
+
+  #ln-articles-container img {
+    width: 100%;
+    height: 7.125rem;
+  }
+
   /* latest funding */
   #lf-grid {
     grid-template-columns: 33% 33% 33%;
@@ -781,19 +855,22 @@ a {
   #latestdeals {
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 5% 25% 25% 25%;
-
   }
-  #ld-h{
+
+  #ld-h {
     grid-column: 1/4;
   }
-  .ld-div-img{
-    width:10rem;
-    height:8rem;
+
+  .ld-div-img {
+    width: 10rem;
+    height: 8rem;
   }
-  .ld-div{
+
+  .ld-div {
     grid-template-columns: 100%;
-    grid-gap:0.5rem;
+    grid-gap: 0.5rem;
   }
+
   /* footer */
   #f-1 {
     height: 10rem;
@@ -919,7 +996,24 @@ a {
   }
 
   /* latest news */
-  /*your code goes here */
+  #latestnews {
+    width: 75%;
+    margin: auto;
+  }
+
+  #ln-articles-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #ln-articles-container img {
+    height: 8.5rem;
+  }
+
+  #ln-articles-container article {
+    flex-direction: column;
+    padding: 0.75rem;
+  }
+
   /* latest funcing */
   #lf-grid {
     grid-template-columns: 25% 25% 25% 25%;
