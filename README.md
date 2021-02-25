@@ -54,12 +54,12 @@ Feel free to run tests on this repository by creating pull requests.
 
 👤 SAMROOD ALI
 
-- GitHub: [@githubhandle](https://github.com/SamroodAli)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samrood-ali/)
+- GitHub: [@SamroodAli](https://github.com/SamroodAli)
+- LinkedIn: [samrood-ali](https://www.linkedin.com/in/samrood-ali/)
 
 👤 DEEPAK KUMAR
 
-- GitHub: [@githubhandle](https://github.com/Deepakdanger)
+- GitHub: [@Deepakdanger](https://github.com/Deepakdanger)
 
 
 ## 🤝 Contributing
