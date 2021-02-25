@@ -203,6 +203,12 @@ h2 {
   grid-row: 2;
 }
 
+.f-1 a {
+  color: #a7abaf;
+  font-size: 0.75rem;
+  margin: 0.5rem;
+}
+
 .ln-text a:hover {
   color: #f42;
 }
@@ -525,12 +531,6 @@ h2 {
   background: rgb(40, 40, 40);
   border-radius: 50%;
   padding: 0.7rem;
-}
-
-.f-1 a {
-  color: #a7abaf;
-  font-size: 0.75rem;
-  margin: 0.5rem;
 }
 
 .f-1 i {
